@@ -35,7 +35,6 @@ header {
 .little-title {
     color: #c3eeb2;
 }
-
 /* ############################## HEADER ################################ */
 
 .header-infos {
@@ -176,7 +175,7 @@ a .nq-logo {
 
 .home-icons {
     margin: auto;
-    width: 7rem;
+    width: 4rem;
     display: flex;
     justify-content: space-between;
 }
@@ -424,7 +423,7 @@ a .nq-logo {
 
 .about-icons {
     margin: auto;
-    width: 7rem;
+    width: 4rem;
     display: flex;
     justify-content: space-between;
 }
