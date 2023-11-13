@@ -1,0 +1,308 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/nelsquick-thumbnail.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <script src="https://kit.fontawesome.com/bddbfd3355.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://hcaptcha.com/1/api.js" async defer></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="script.js"></script>
+    <title>NelsQuick • Développeur web & web mobile junior</title>
+</head>
+
+<body>
+    <header>
+        <section class="header-infos">
+            <div class="navbar-left">
+                <a href="index.html"><img class="nq-logo" src="nelsquick.png" alt="logo nelsquick"></a>
+            </div>
+            <div class="navbar-right">
+                <a href="#qui-suis-je">Qui suis-je ?</a>
+                <a href="#realisations">Réalisations</a>
+                <a href="#competences">Compétences</a>
+                <a href="#formations">Formations</a>
+                <a href="#contact">Contact</a>
+              </div>
+                <div class="burger-container">
+                    <img src="/burger.png" alt="burger" class="menu-burger" data-target="mobile-menu" />
+                </div>
+            </nav>
+            <div class="mobile-menu">
+              <a href="#qui-suis-je">Qui suis-je ?</a>
+              <a href="#realisations">Réalisations</a>
+              <a href="#competences">Compétences</a>
+              <a href="#formations">Formations</a>
+              <a href="#contact">Contact</a>
+            </div>     
+        </section>
+    </header>
+    <main>
+        <section class="home">
+            <div class="home-left">
+                <img class="nq-logo" src="nelsquick.png" alt="logo nelsquick">
+                <h1>NelsQuick</h1>
+                <div class="header-caption" id="page-top">
+                    <!-- type headline start-->
+                    <h3 class="cd-headline clip is-full-width">
+                      <!-- STATIC TEXT -->
+                      <span>Je suis&nbsp;</span>
+                      <!-- ROTATING TEXT -->
+                      <span class="cd-words-wrapper" style="width: 178px;">
+                        <b class="is-visible">Développeur Web</b>
+                        <b class="is-hidden">Full-stack Junior</b>
+                        <b class="is-hidden">Diplômé DWWM</b>
+                      </span>
+                      <!-- STATIC TEXT -->
+                      <span class="span-point">.</span>
+                    </h3>
+                    <!-- type headline end -->
+                </div>
+                <a href="http://nelsquick.fr/download/mon-cv.pdf" download="mon-cv.pdf" target="_blank">
+                    <button>TELECHARGER MON CV <i class="fa-solid fa-download"></i></button>
+                 </a>
+                <div class="home-icons">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="home-right">
+                <div class="VSCode">
+                    <pre><span class="number">1   </span>class <strong>Person</strong> {</pre>
+                    <pre><span class="number">2    </span>constructor() {</pre>
+                    <pre><span class="number">3     </span>this.name = "<strong>Nelson PIRES</strong>";</pre>
+                    <pre><span class="number">4     </span>this.status = "<strong>Recherche d'emploi</strong>";</pre>
+                    <pre><span class="number">5     </span>this.langages = ["<strong>Symfony</strong>", "<strong>HTML</strong>", "<strong>CSS</strong>"];</pre>
+                    <pre><span class="number">6     </span>this.age = new Date ().getFullAge() - 23;</pre>
+                    <pre><span class="number">7    </span>}</pre>
+                    <pre><span class="number">8   </span>}</pre>
+                </div>
+            </div>
+        </section>
+
+        <div class="separating-button">
+            <a href="#qui-suis-je"><i class="fa-solid fa-circle-chevron-down"></i></a>
+        </div>
+
+        <section class="about">
+            <h1 class="little-title" id="qui-suis-je">QUI SUIS-JE ?</h1>
+            <div class="about-informations">
+                <div class="about-left">
+                    <img src="nelson.jpg" class="profil" alt="">
+                    <div class="about-icons">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <p>Je m'appelle Nelson Pires, je viens tout juste de décrocher mon titre professionnel de développeur web & web mobile niveau 5 (équivalent BAC+2).
+                        <br>
+                        <br>
+                        Mon intérêt et ma passion pour le développement ont débutés lors de l'été 2022.
+                        <br>
+                        J'ai pu apprendre et me former en autodidacte avant de rejoindre Prépavenir Formations en février 2023 et d'obtenir mon diplôme en novembre.
+                        <br>
+                        <br>
+                        Pendant la formations, j'ai pu découvrir le framework Symfony <i class="fa-brands fa-symfony"></i> auquel j'ai tout de suite pris goût !
+                        <br><br><br>
+                        Vous souhaitez en savoir plus ?<br>N'hésitez pas à <a href="#">ME CONTACTER</a>
+                    </p>
+                </div>
+            </div>
+            <div class="counting-projects">
+                <div class="about-box">
+                    <h3>1</h3>
+                    <p>année d'autoformation</p>
+                </div>
+                <div class="about-box">
+                    <h3>1</h3>
+                    <p>projet terminé</p>
+                </div>
+                <div class="about-box">
+                    <h3>2</h3>
+                    <p>projets en cours</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="realisations" id="realisations">
+            <h1 class="little-title" id="realisations">RÉALISATIONS</h1>
+
+
+            <div class="all-realisations">
+
+
+                <div class="realisation-block" id="lienVersCodeSculpt">
+                    <img class="realisation-img" src="realisations/CodeSculpt.png" alt="">
+                    <div class="realisation-infos">
+                        <div class="status-badge-in-progress">En cours</div>
+                        <h4>CodeSculpt</h4>
+                        <div class="realisation-icons">
+                            <i class="devicon-html5-plain colored"></i>   
+                            <i class="devicon-css3-plain colored"></i>
+                            <i class="devicon-javascript-plain colored"></i>    
+                            <i class="devicon-symfony-original colored" style="color: white;"></i>
+                        </div>
+                        <p>Création d'un mini réseau social en utlisant Symfony et ses bundles.</p>
+                    </div>
+                </div>
+                <br><br>
+
+
+                <div class="realisation-block">
+                    <img class="realisation-img" src="realisations/magali.png" alt="">
+                    <div class="realisation-infos">
+                        <div class="status-badge-in-progress">En cours</div>
+                        <h4>Bulle de zen</h4>
+                        <div class="realisation-icons">
+                            <i class="devicon-wordpress-plain" style="color: #ffffff;"></i>   
+                        </div>
+                        <p>Réalisation d'un site vitrine avec système de réservation en utilisant le CMS Wordpress.</p>
+                    </div>
+                </div>
+                <br><br>
+
+                <div class="realisation-block">
+                    <img class="realisation-img" src="realisations/NelsQuick.png" alt="">
+                    <div class="realisation-infos">
+                        <div class="status-badge-finished">Terminé</div>
+                        <h4>NelsQuick</h4>
+                        <div class="realisation-icons">
+                            <i class="devicon-html5-plain colored"></i>   
+                            <i class="devicon-css3-plain colored"></i>
+                            <i class="devicon-javascript-plain colored"></i>
+                        </div>
+                        <p>Portfolio créé uniquement en HTML, CSS et JavaScript. Contact et Captcha gérés par Formspree.</p>
+                    </div>
+                </div>
+
+
+
+                
+            </div>
+
+        </section>
+
+        <section class="competences">
+            <h1 class="little-title" id="competences">COMPÉTENCES</h1>
+            <div class="first-line">
+                <div class="front-end">
+                    <h2>Front-end</h2>
+                    <div class="icons">
+                        <i class="devicon-html5-plain colored"></i>
+                        <i class="devicon-css3-plain colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-react-original colored"></i>
+                    </div>
+                </div>
+                <div class="back-end">
+                    <h2>Back-end</h2>
+                    <div class="icons">
+                        <i class="devicon-nodejs-plain colored"></i>
+                        <i class="fa-brands fa-symfony" style="color: #ffffff;"></i>
+                        <i class="devicon-php-plain colored"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="second-line">
+                <div class="databases">
+                    <h2>Bases de données</h2>
+                    <div class="icons">
+                        <i class="devicon-mysql-plain-wordmark" style="color: #ffffff;"></i>
+                        <i class="devicon-mongodb-plain-wordmark colored"></i>
+                    </div>
+                </div>
+                <div class="tools">
+                    <h2>Divers</h2>
+                    <div class="icons">
+                        <i class="devicon-photoshop-line colored"></i>
+                        <i class="devicon-illustrator-line colored"></i>
+                        <i class="devicon-xd-line colored"></i>
+                        <i class="devicon-git-plain colored"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formations" id="formations">
+            <h1 class="little-title" id="competences">FORMATIONS</h1>
+            <div class="dotted-bg">
+                <div class="dwwm">
+                    <div class="date">
+                        <i class="fa-regular fa-calendar" style="color: #ffffff;"></i>
+                        <h3>2023</h3>
+                    </div>
+                    <div class="school">
+                        <i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i>
+                        <img src="prepavenir1.png" alt="">
+                    </div>
+                    <div class="formation-desc">
+                        <p>Titre professionnel développeur web & web mobile (BAC +2)</p>
+                    </div>
+                </div>
+
+                <div class="ci">
+                    <div class="date">
+                        <i class="fa-regular fa-calendar" style="color: #ffffff;"></i>
+                        <h3>2018 - 2020</h3>
+                    </div>
+                    <div class="school">
+                        <i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i>
+                        <p><strong>Lycée JB. Poquelin</strong> - Saint-Germain-En-Laye</p>
+                    </div>
+                    <div class="formation-desc">
+                        <p>Niveau brevet d'étude supérieur en Commerce International</p>
+                    </div>
+                </div>
+
+                <div class="commerce">
+                    <div class="date">
+                        <i class="fa-regular fa-calendar" style="color: #ffffff;"></i>
+                        <h3>2015 - 2018</h3>
+                    </div>
+                    <div class="school">
+                        <i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i>
+                        <p><strong>Lycée Jules Verne</strong> - Sartrouville</p>
+                    </div>
+                    <div class="formation-desc">
+                        <p>Baccalauréeat Professionnel de Commerce</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h1 class="little-title" id="contact">CONTACT</h1>
+            
+            <form id="myForm" action="https://formspree.io/f/mnqkryer" method="post">
+                <div class="name-container">
+                    <input type="text" name="nom" placeholder="Nom" required>
+                    <input type="text" name="prenom" placeholder="Prénom" required>
+                </div>
+                <input type="email" name="email" placeholder="Adresse Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <div class="g-recaptcha" data-sitekey="6LcN2AkpAAAAAJuN86Z1TzCUIku0FpvpazwtF-Tl" data-callback="onRecaptchaSubmit"></div></div>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+
+        <footer>
+            <img src="nelsquick.png" alt="">
+            <p>NelsQuick ® 2023</p>
+        </footer>
+        
+    </main>
+</body>
+</html>
