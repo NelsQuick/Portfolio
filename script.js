@@ -330,3 +330,21 @@ document.addEventListener("DOMContentLoaded", function() {
           });
       });
   });
+
+
+  var lastScrollTop = 0;
+
+  $(window).scroll(function () {
+      var st = $(this).scrollTop();
+  
+      if (st > lastScrollTop && st > 50) {
+          // Faites disparaître l'en-tête
+          $('#myHeader').addClass('hidden');
+      } else {
+          // Faites réapparaître l'en-tête
+          $('#myHeader').removeClass('hidden');
+      }
+  
+      lastScrollTop = st;
+  });
+  

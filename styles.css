@@ -18,6 +18,8 @@ a:hover {
 body {
     width: 100%;
     background-color: rgb(25, 25, 25);
+    padding-top: 100px; /* Hauteur de votre en-tête */
+
 }
 
 html {
@@ -27,9 +29,16 @@ html {
 header {
     background-color: rgba(30, 30, 30, 0.8);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-    position: sticky;
-    top: 0; /* Positionner l'en-tête en haut de la fenêtre visible */
-    z-index: 100; /* Assurez-vous que l'en-tête s'affiche au-dessus du contenu */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 100;
+    height: 4rem;
+}
+
+header.hidden {
+    top: -100px; /* ou une valeur négative suffisamment grande pour cacher l'en-tête */
 }
 
 .little-title {
